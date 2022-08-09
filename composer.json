@@ -14,6 +14,11 @@
         {
             "name": "Sonata Community",
             "homepage": "https://github.com/sonata-project/SonataMediaBundle/contributors"
+        },
+        {
+            "name": "Mahefa Abel",
+            "email": "abelmahefa@gmail.com",
+            "homepage": "https://www.mahefa.pro"
         }
     ],
     "require": {
