@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Action;
+namespace Sonata\MediaBundle\Action;
 
-use Mahefa\Sonata\MediaBundle\Model\MediaManagerInterface;
-use Mahefa\Sonata\MediaBundle\Provider\MediaProviderInterface;
-use Mahefa\Sonata\MediaBundle\Provider\Pool;
+use Sonata\MediaBundle\Model\MediaManagerInterface;
+use Sonata\MediaBundle\Provider\MediaProviderInterface;
+use Sonata\MediaBundle\Provider\Pool;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

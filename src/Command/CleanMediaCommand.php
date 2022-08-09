@@ -11,12 +11,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Command;
+namespace Sonata\MediaBundle\Command;
 
-use Mahefa\Sonata\MediaBundle\Filesystem\Local;
-use Mahefa\Sonata\MediaBundle\Model\MediaManagerInterface;
-use Mahefa\Sonata\MediaBundle\Provider\FileProvider;
-use Mahefa\Sonata\MediaBundle\Provider\Pool;
+use Sonata\MediaBundle\Filesystem\Local;
+use Sonata\MediaBundle\Model\MediaManagerInterface;
+use Sonata\MediaBundle\Provider\FileProvider;
+use Sonata\MediaBundle\Provider\Pool;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

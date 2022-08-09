@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Mahefa\Sonata\MediaBundle\Entity\GalleryManager;
-use Mahefa\Sonata\MediaBundle\Entity\MediaManager;
-use Mahefa\Sonata\MediaBundle\Generator\IdGenerator;
-use Mahefa\Sonata\MediaBundle\Listener\ORM\MediaEventSubscriber;
+use Sonata\MediaBundle\Entity\GalleryManager;
+use Sonata\MediaBundle\Entity\MediaManager;
+use Sonata\MediaBundle\Generator\IdGenerator;
+use Sonata\MediaBundle\Listener\ORM\MediaEventSubscriber;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

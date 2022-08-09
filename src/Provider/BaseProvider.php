@@ -11,16 +11,16 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Provider;
+namespace Sonata\MediaBundle\Provider;
 
 use Gaufrette\Filesystem;
 use Sonata\Form\Validator\ErrorElement;
-use Mahefa\Sonata\MediaBundle\CDN\CDNInterface;
-use Mahefa\Sonata\MediaBundle\Generator\GeneratorInterface;
-use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
-use Mahefa\Sonata\MediaBundle\Resizer\ResizerInterface;
-use Mahefa\Sonata\MediaBundle\Thumbnail\GenerableThumbnailInterface;
-use Mahefa\Sonata\MediaBundle\Thumbnail\ThumbnailInterface;
+use Sonata\MediaBundle\CDN\CDNInterface;
+use Sonata\MediaBundle\Generator\GeneratorInterface;
+use Sonata\MediaBundle\Model\MediaInterface;
+use Sonata\MediaBundle\Resizer\ResizerInterface;
+use Sonata\MediaBundle\Thumbnail\GenerableThumbnailInterface;
+use Sonata\MediaBundle\Thumbnail\ThumbnailInterface;
 
 /**
  * @phpstan-import-type FormatOptions from MediaProviderInterface

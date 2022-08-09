@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Messenger;
+namespace Sonata\MediaBundle\Messenger;
 
 /**
  * @author Jordi Sala Morales <jordism91@gmail.com>

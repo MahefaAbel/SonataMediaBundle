@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Mahefa\Sonata\MediaBundle\Block\FeatureMediaBlockService;
-use Mahefa\Sonata\MediaBundle\Block\GalleryBlockService;
-use Mahefa\Sonata\MediaBundle\Block\GalleryListBlockService;
-use Mahefa\Sonata\MediaBundle\Block\MediaBlockService;
+use Sonata\MediaBundle\Block\FeatureMediaBlockService;
+use Sonata\MediaBundle\Block\GalleryBlockService;
+use Sonata\MediaBundle\Block\GalleryListBlockService;
+use Sonata\MediaBundle\Block\MediaBlockService;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

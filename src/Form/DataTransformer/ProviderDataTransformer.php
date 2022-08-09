@@ -11,13 +11,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Form\DataTransformer;
+namespace Sonata\MediaBundle\Form\DataTransformer;
 
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
 use Psr\Log\NullLogger;
-use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
-use Mahefa\Sonata\MediaBundle\Provider\Pool;
+use Sonata\MediaBundle\Model\MediaInterface;
+use Sonata\MediaBundle\Provider\Pool;
 use Symfony\Component\Form\DataTransformerInterface;
 
 /**

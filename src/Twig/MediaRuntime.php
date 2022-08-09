@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Twig;
+namespace Sonata\MediaBundle\Twig;
 
-use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
-use Mahefa\Sonata\MediaBundle\Model\MediaManagerInterface;
-use Mahefa\Sonata\MediaBundle\Provider\Pool;
+use Sonata\MediaBundle\Model\MediaInterface;
+use Sonata\MediaBundle\Model\MediaManagerInterface;
+use Sonata\MediaBundle\Provider\Pool;
 use Twig\Environment;
 use Twig\Extension\RuntimeExtensionInterface;
 

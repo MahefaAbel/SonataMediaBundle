@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Validator\Constraints;
+namespace Sonata\MediaBundle\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 

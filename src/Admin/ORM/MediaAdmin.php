@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Admin\ORM;
+namespace Sonata\MediaBundle\Admin\ORM;
 
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\DoctrineORMAdminBundle\Filter\ChoiceFilter;
-use Mahefa\Sonata\MediaBundle\Admin\BaseMediaAdmin;
+use Sonata\MediaBundle\Admin\BaseMediaAdmin;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 
 final class MediaAdmin extends BaseMediaAdmin

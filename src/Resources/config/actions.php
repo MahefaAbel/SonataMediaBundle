@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Mahefa\Sonata\MediaBundle\Action\MediaDownloadAction;
+use Sonata\MediaBundle\Action\MediaDownloadAction;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

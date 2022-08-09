@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\DependencyInjection\Compiler;
+namespace Sonata\MediaBundle\DependencyInjection\Compiler;
 
-use Mahefa\Sonata\MediaBundle\DependencyInjection\Configuration;
-use Mahefa\Sonata\MediaBundle\Provider\MediaProviderInterface;
+use Sonata\MediaBundle\DependencyInjection\Configuration;
+use Sonata\MediaBundle\Provider\MediaProviderInterface;
 use Symfony\Component\Config\Definition\Processor;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

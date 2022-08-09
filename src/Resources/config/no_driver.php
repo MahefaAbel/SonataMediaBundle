@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Mahefa\Sonata\MediaBundle\Generator\NoDriverGenerator;
-use Mahefa\Sonata\MediaBundle\Model\NoDriverGalleryManager;
-use Mahefa\Sonata\MediaBundle\Model\NoDriverMediaManager;
+use Sonata\MediaBundle\Generator\NoDriverGenerator;
+use Sonata\MediaBundle\Model\NoDriverGalleryManager;
+use Sonata\MediaBundle\Model\NoDriverMediaManager;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator): void {

@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\DependencyInjection\Compiler;
+namespace Sonata\MediaBundle\DependencyInjection\Compiler;
 
-use Mahefa\Sonata\MediaBundle\Thumbnail\ResizableThumbnailInterface;
+use Sonata\MediaBundle\Thumbnail\ResizableThumbnailInterface;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;

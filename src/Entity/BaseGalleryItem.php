@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Entity;
+namespace Sonata\MediaBundle\Entity;
 
-use Mahefa\Sonata\MediaBundle\Model\GalleryItem;
+use Sonata\MediaBundle\Model\GalleryItem;
 
 abstract class BaseGalleryItem extends GalleryItem
 {

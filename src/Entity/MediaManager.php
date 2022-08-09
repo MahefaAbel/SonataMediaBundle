@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Entity;
+namespace Sonata\MediaBundle\Entity;
 
 use Sonata\Doctrine\Entity\BaseEntityManager;
-use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
-use Mahefa\Sonata\MediaBundle\Model\MediaManagerInterface;
+use Sonata\MediaBundle\Model\MediaInterface;
+use Sonata\MediaBundle\Model\MediaManagerInterface;
 
 /**
  * @phpstan-extends BaseEntityManager<MediaInterface>

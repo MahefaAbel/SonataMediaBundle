@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Generator;
+namespace Sonata\MediaBundle\Generator;
 
-use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
+use Sonata\MediaBundle\Model\MediaInterface;
 
 interface GeneratorInterface
 {

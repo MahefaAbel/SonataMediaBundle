@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Twig;
+namespace Sonata\MediaBundle\Twig;
 
-use Mahefa\Sonata\MediaBundle\Provider\Pool;
+use Sonata\MediaBundle\Provider\Pool;
 
 /**
  * @author Thomas Rabaix <thomas.rabaix@sonata-project.org>

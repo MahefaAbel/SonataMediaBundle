@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Model;
+namespace Sonata\MediaBundle\Model;
 
-use Mahefa\Sonata\MediaBundle\Exception\NoDriverException;
+use Sonata\MediaBundle\Exception\NoDriverException;
 
 /**
  * @internal

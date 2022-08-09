@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Command;
+namespace Sonata\MediaBundle\Command;
 
-use Mahefa\Sonata\MediaBundle\Model\MediaManagerInterface;
+use Sonata\MediaBundle\Model\MediaManagerInterface;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;

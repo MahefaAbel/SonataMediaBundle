@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Twig\Extension;
+namespace Sonata\MediaBundle\Twig\Extension;
 
-use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
-use Mahefa\Sonata\MediaBundle\Twig\MediaRuntime;
+use Sonata\MediaBundle\Model\MediaInterface;
+use Sonata\MediaBundle\Twig\MediaRuntime;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 

@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Mahefa\Sonata\MediaBundle\Admin\GalleryAdmin;
-use Mahefa\Sonata\MediaBundle\Admin\GalleryItemAdmin;
-use Mahefa\Sonata\MediaBundle\Admin\ODM\MediaAdmin;
+use Sonata\MediaBundle\Admin\GalleryAdmin;
+use Sonata\MediaBundle\Admin\GalleryItemAdmin;
+use Sonata\MediaBundle\Admin\ODM\MediaAdmin;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

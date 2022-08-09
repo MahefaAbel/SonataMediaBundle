@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Mahefa\Sonata\MediaBundle\Provider;
+namespace Sonata\MediaBundle\Provider;
 
 use Gaufrette\File;
 use Gaufrette\Filesystem;
@@ -19,11 +19,11 @@ use Imagine\Image\Box;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 use Sonata\AdminBundle\Form\FormMapper;
-use Mahefa\Sonata\MediaBundle\CDN\CDNInterface;
-use Mahefa\Sonata\MediaBundle\Generator\GeneratorInterface;
-use Mahefa\Sonata\MediaBundle\Metadata\MetadataBuilderInterface;
-use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
-use Mahefa\Sonata\MediaBundle\Thumbnail\ThumbnailInterface;
+use Sonata\MediaBundle\CDN\CDNInterface;
+use Sonata\MediaBundle\Generator\GeneratorInterface;
+use Sonata\MediaBundle\Metadata\MetadataBuilderInterface;
+use Sonata\MediaBundle\Model\MediaInterface;
+use Sonata\MediaBundle\Thumbnail\ThumbnailInterface;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Validator\Constraints\NotBlank;

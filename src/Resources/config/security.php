@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Mahefa\Sonata\MediaBundle\Security\ForbiddenDownloadStrategy;
-use Mahefa\Sonata\MediaBundle\Security\PublicDownloadStrategy;
-use Mahefa\Sonata\MediaBundle\Security\RolesDownloadStrategy;
-use Mahefa\Sonata\MediaBundle\Security\SessionDownloadStrategy;
+use Sonata\MediaBundle\Security\ForbiddenDownloadStrategy;
+use Sonata\MediaBundle\Security\PublicDownloadStrategy;
+use Sonata\MediaBundle\Security\RolesDownloadStrategy;
+use Sonata\MediaBundle\Security\SessionDownloadStrategy;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 
