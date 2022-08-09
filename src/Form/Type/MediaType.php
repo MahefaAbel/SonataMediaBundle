@@ -11,14 +11,14 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Form\Type;
+namespace Mahefa\Sonata\MediaBundle\Form\Type;
 
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
 use Psr\Log\NullLogger;
-use Sonata\MediaBundle\Form\DataTransformer\ProviderDataTransformer;
-use Sonata\MediaBundle\Model\MediaInterface;
-use Sonata\MediaBundle\Provider\Pool;
+use Mahefa\Sonata\MediaBundle\Form\DataTransformer\ProviderDataTransformer;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Provider\Pool;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\Extension\Core\Type\FormType;

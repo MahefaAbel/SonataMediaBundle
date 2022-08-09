@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Admin\ODM;
+namespace Mahefa\Sonata\MediaBundle\Admin\ODM;
 
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
-use Sonata\MediaBundle\Admin\BaseMediaAdmin;
+use Mahefa\Sonata\MediaBundle\Admin\BaseMediaAdmin;
 
 final class MediaAdmin extends BaseMediaAdmin
 {

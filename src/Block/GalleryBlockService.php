@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Block;
+namespace Mahefa\Sonata\MediaBundle\Block;
 
 use Sonata\AdminBundle\Admin\AdminInterface;
 use Sonata\AdminBundle\Form\Type\ModelListType;
@@ -24,11 +24,11 @@ use Sonata\BlockBundle\Meta\MetadataInterface;
 use Sonata\BlockBundle\Model\BlockInterface;
 use Sonata\Form\Type\ImmutableArrayType;
 use Sonata\Form\Validator\ErrorElement;
-use Sonata\MediaBundle\Model\GalleryInterface;
-use Sonata\MediaBundle\Model\GalleryItemInterface;
-use Sonata\MediaBundle\Model\GalleryManagerInterface;
-use Sonata\MediaBundle\Model\MediaInterface;
-use Sonata\MediaBundle\Provider\Pool;
+use Mahefa\Sonata\MediaBundle\Model\GalleryInterface;
+use Mahefa\Sonata\MediaBundle\Model\GalleryItemInterface;
+use Mahefa\Sonata\MediaBundle\Model\GalleryManagerInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Provider\Pool;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\NumberType;

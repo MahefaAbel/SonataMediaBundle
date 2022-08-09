@@ -11,16 +11,16 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Admin;
+namespace Mahefa\Sonata\MediaBundle\Admin;
 
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\Form\Type\CollectionType;
-use Sonata\MediaBundle\Model\GalleryInterface;
-use Sonata\MediaBundle\Model\GalleryItemInterface;
-use Sonata\MediaBundle\Provider\Pool;
+use Mahefa\Sonata\MediaBundle\Model\GalleryInterface;
+use Mahefa\Sonata\MediaBundle\Model\GalleryItemInterface;
+use Mahefa\Sonata\MediaBundle\Provider\Pool;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 
 /**

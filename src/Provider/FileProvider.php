@@ -11,18 +11,18 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Provider;
+namespace Mahefa\Sonata\MediaBundle\Provider;
 
 use Gaufrette\File as GaufretteFile;
 use Gaufrette\Filesystem;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\Form\Validator\ErrorElement;
-use Sonata\MediaBundle\CDN\CDNInterface;
-use Sonata\MediaBundle\Filesystem\Local;
-use Sonata\MediaBundle\Generator\GeneratorInterface;
-use Sonata\MediaBundle\Metadata\MetadataBuilderInterface;
-use Sonata\MediaBundle\Model\MediaInterface;
-use Sonata\MediaBundle\Thumbnail\ThumbnailInterface;
+use Mahefa\Sonata\MediaBundle\CDN\CDNInterface;
+use Mahefa\Sonata\MediaBundle\Filesystem\Local;
+use Mahefa\Sonata\MediaBundle\Generator\GeneratorInterface;
+use Mahefa\Sonata\MediaBundle\Metadata\MetadataBuilderInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Thumbnail\ThumbnailInterface;
 use Symfony\Component\Form\Extension\Core\Type\FileType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;

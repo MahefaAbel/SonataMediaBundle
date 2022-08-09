@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Document;
+namespace Mahefa\Sonata\MediaBundle\Document;
 
-use Sonata\MediaBundle\Model\Media;
+use Mahefa\Sonata\MediaBundle\Model\Media;
 
 abstract class BaseMedia extends Media
 {

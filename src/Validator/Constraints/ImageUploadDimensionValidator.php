@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Validator\Constraints;
+namespace Mahefa\Sonata\MediaBundle\Validator\Constraints;
 
 use Imagine\Image\ImagineInterface;
-use Sonata\MediaBundle\Model\MediaInterface;
-use Sonata\MediaBundle\Provider\ImageProviderInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Provider\ImageProviderInterface;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;

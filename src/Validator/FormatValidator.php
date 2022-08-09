@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Validator;
+namespace Mahefa\Sonata\MediaBundle\Validator;
 
-use Sonata\MediaBundle\Model\GalleryInterface;
-use Sonata\MediaBundle\Provider\MediaProviderInterface;
-use Sonata\MediaBundle\Provider\Pool;
+use Mahefa\Sonata\MediaBundle\Model\GalleryInterface;
+use Mahefa\Sonata\MediaBundle\Provider\MediaProviderInterface;
+use Mahefa\Sonata\MediaBundle\Provider\Pool;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 

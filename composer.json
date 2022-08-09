@@ -1,6 +1,6 @@
 {
-    "name": "sonata-project/media-bundle",
-    "description": "Symfony SonataMediaBundle",
+    "name": "mahefa/media-bundle",
+    "description": "Symfony SonataMediaBundle for Symfony 6",
     "license": "MIT",
     "type": "symfony-bundle",
     "keywords": [
@@ -15,13 +15,9 @@
     ],
     "authors": [
         {
-            "name": "Thomas Rabaix",
-            "email": "thomas.rabaix@sonata-project.org",
-            "homepage": "https://sonata-project.org"
-        },
-        {
-            "name": "Sonata Community",
-            "homepage": "https://github.com/sonata-project/SonataMediaBundle/contributors"
+            "name": "Mahefa Abel",
+            "email": "abelmahefa@gmail.com",
+            "homepage": "https://www.mahefa.pro"
         }
     ],
     "homepage": "https://docs.sonata-project.org/projects/SonataMediaBundle",
@@ -114,12 +110,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Sonata\\MediaBundle\\": "src/"
+            "Mahefa\\Sonata\\MediaBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sonata\\MediaBundle\\Tests\\": "tests/"
+            "Mahefa\\Sonata\\MediaBundle\\Tests\\": "tests/"
         }
     },
     "config": {

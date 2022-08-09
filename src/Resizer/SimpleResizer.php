@@ -11,15 +11,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Resizer;
+namespace Mahefa\Sonata\MediaBundle\Resizer;
 
 use Gaufrette\File;
 use Imagine\Exception\InvalidArgumentException;
 use Imagine\Image\Box;
 use Imagine\Image\ImagineInterface;
 use Imagine\Image\ManipulatorInterface;
-use Sonata\MediaBundle\Metadata\MetadataBuilderInterface;
-use Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Metadata\MetadataBuilderInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
 
 final class SimpleResizer implements ResizerInterface
 {

@@ -15,12 +15,12 @@ use Aws\CloudFront\CloudFrontClient;
 use Imagine\Gd\Imagine as GdImagine;
 use Imagine\Gmagick\Imagine as GmagickImagine;
 use Imagine\Imagick\Imagine as ImagickImagine;
-use Sonata\MediaBundle\CDN\CloudFrontVersion3;
-use Sonata\MediaBundle\CDN\Fallback;
-use Sonata\MediaBundle\CDN\Server;
-use Sonata\MediaBundle\Resizer\CropResizer;
-use Sonata\MediaBundle\Resizer\SimpleResizer;
-use Sonata\MediaBundle\Resizer\SquareResizer;
+use Mahefa\Sonata\MediaBundle\CDN\CloudFrontVersion3;
+use Mahefa\Sonata\MediaBundle\CDN\Fallback;
+use Mahefa\Sonata\MediaBundle\CDN\Server;
+use Mahefa\Sonata\MediaBundle\Resizer\CropResizer;
+use Mahefa\Sonata\MediaBundle\Resizer\SimpleResizer;
+use Mahefa\Sonata\MediaBundle\Resizer\SquareResizer;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

@@ -12,8 +12,8 @@ declare(strict_types=1);
  */
 
 use Psr\Container\ContainerInterface;
-use Sonata\MediaBundle\Controller\GalleryAdminController;
-use Sonata\MediaBundle\Controller\MediaAdminController;
+use Mahefa\Sonata\MediaBundle\Controller\GalleryAdminController;
+use Mahefa\Sonata\MediaBundle\Controller\MediaAdminController;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

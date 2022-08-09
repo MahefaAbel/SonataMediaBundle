@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Thumbnail;
+namespace Mahefa\Sonata\MediaBundle\Thumbnail;
 
-use Sonata\MediaBundle\Messenger\GenerateThumbnailsMessage;
-use Sonata\MediaBundle\Model\MediaInterface;
-use Sonata\MediaBundle\Provider\MediaProviderInterface;
+use Mahefa\Sonata\MediaBundle\Messenger\GenerateThumbnailsMessage;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Provider\MediaProviderInterface;
 use Symfony\Component\Messenger\MessageBusInterface;
 
 final class MessengerThumbnail implements ThumbnailInterface, GenerableThumbnailInterface

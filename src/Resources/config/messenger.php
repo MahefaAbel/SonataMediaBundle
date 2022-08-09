@@ -11,8 +11,8 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Sonata\MediaBundle\Messenger\GenerateThumbnailsHandler;
-use Sonata\MediaBundle\Thumbnail\MessengerThumbnail;
+use Mahefa\Sonata\MediaBundle\Messenger\GenerateThumbnailsHandler;
+use Mahefa\Sonata\MediaBundle\Thumbnail\MessengerThumbnail;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

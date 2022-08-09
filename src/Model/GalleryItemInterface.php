@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Model;
+namespace Mahefa\Sonata\MediaBundle\Model;
 
 interface GalleryItemInterface
 {

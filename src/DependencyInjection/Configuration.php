@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\DependencyInjection;
+namespace Mahefa\Sonata\MediaBundle\DependencyInjection;
 
 use Imagine\Image\ManipulatorInterface;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;

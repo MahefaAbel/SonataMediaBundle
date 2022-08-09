@@ -11,13 +11,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Metadata;
+namespace Mahefa\Sonata\MediaBundle\Metadata;
 
 use Gaufrette\Adapter\AwsS3;
-use Sonata\MediaBundle\Filesystem\Replicate;
-use Sonata\MediaBundle\Model\MediaInterface;
-use Sonata\MediaBundle\Provider\MediaProviderInterface;
-use Sonata\MediaBundle\Provider\Pool;
+use Mahefa\Sonata\MediaBundle\Filesystem\Replicate;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Provider\MediaProviderInterface;
+use Mahefa\Sonata\MediaBundle\Provider\Pool;
 
 final class ProxyMetadataBuilder implements MetadataBuilderInterface
 {

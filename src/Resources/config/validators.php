@@ -11,8 +11,8 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Sonata\MediaBundle\Validator\Constraints\ImageUploadDimensionValidator;
-use Sonata\MediaBundle\Validator\FormatValidator;
+use Mahefa\Sonata\MediaBundle\Validator\Constraints\ImageUploadDimensionValidator;
+use Mahefa\Sonata\MediaBundle\Validator\FormatValidator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

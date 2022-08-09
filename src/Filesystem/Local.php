@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Filesystem;
+namespace Mahefa\Sonata\MediaBundle\Filesystem;
 
 use Gaufrette\Adapter\Local as BaseLocal;
 

@@ -11,12 +11,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle;
+namespace Mahefa\Sonata\MediaBundle;
 
-use Sonata\MediaBundle\DependencyInjection\Compiler\AddProviderCompilerPass;
-use Sonata\MediaBundle\DependencyInjection\Compiler\GlobalVariablesCompilerPass;
-use Sonata\MediaBundle\DependencyInjection\Compiler\ThumbnailCompilerPass;
-use Sonata\MediaBundle\DependencyInjection\Compiler\TwigStringExtensionCompilerPass;
+use Mahefa\Sonata\MediaBundle\DependencyInjection\Compiler\AddProviderCompilerPass;
+use Mahefa\Sonata\MediaBundle\DependencyInjection\Compiler\GlobalVariablesCompilerPass;
+use Mahefa\Sonata\MediaBundle\DependencyInjection\Compiler\ThumbnailCompilerPass;
+use Mahefa\Sonata\MediaBundle\DependencyInjection\Compiler\TwigStringExtensionCompilerPass;
 use Symfony\Component\DependencyInjection\Compiler\PassConfig;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;

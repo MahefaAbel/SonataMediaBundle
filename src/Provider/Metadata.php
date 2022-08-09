@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Provider;
+namespace Mahefa\Sonata\MediaBundle\Provider;
 
 final class Metadata implements MetadataInterface
 {

@@ -11,13 +11,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Admin;
+namespace Mahefa\Sonata\MediaBundle\Admin;
 
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Form\Type\ModelListType;
-use Sonata\MediaBundle\Model\GalleryItemInterface;
+use Mahefa\Sonata\MediaBundle\Model\GalleryItemInterface;
 use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 
 /**

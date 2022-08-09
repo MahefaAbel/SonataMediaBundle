@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Messenger;
+namespace Mahefa\Sonata\MediaBundle\Messenger;
 
-use Sonata\MediaBundle\Model\MediaManagerInterface;
-use Sonata\MediaBundle\Provider\Pool;
-use Sonata\MediaBundle\Thumbnail\GenerableThumbnailInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaManagerInterface;
+use Mahefa\Sonata\MediaBundle\Provider\Pool;
+use Mahefa\Sonata\MediaBundle\Thumbnail\GenerableThumbnailInterface;
 use Symfony\Component\Messenger\Exception\UnrecoverableMessageHandlingException;
 use Symfony\Component\Messenger\Handler\MessageHandlerInterface;
 

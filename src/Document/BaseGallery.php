@@ -11,12 +11,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Document;
+namespace Mahefa\Sonata\MediaBundle\Document;
 
-use Sonata\MediaBundle\Model\Gallery;
+use Mahefa\Sonata\MediaBundle\Model\Gallery;
 
 /**
- * @phpstan-template T of \Sonata\MediaBundle\Model\GalleryItemInterface
+ * @phpstan-template T of \Mahefa\Sonata\MediaBundle\Model\GalleryItemInterface
  * @phpstan-extends Gallery<T>
  */
 abstract class BaseGallery extends Gallery

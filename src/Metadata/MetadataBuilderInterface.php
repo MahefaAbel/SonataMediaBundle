@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Metadata;
+namespace Mahefa\Sonata\MediaBundle\Metadata;
 
-use Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
 
 interface MetadataBuilderInterface
 {

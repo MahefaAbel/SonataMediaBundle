@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Security;
+namespace Mahefa\Sonata\MediaBundle\Security;
 
-use Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Contracts\Translation\TranslatorInterface;
 

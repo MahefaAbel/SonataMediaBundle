@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Model;
+namespace Mahefa\Sonata\MediaBundle\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use Sonata\MediaBundle\Provider\MediaProviderInterface;
+use Mahefa\Sonata\MediaBundle\Provider\MediaProviderInterface;
 
 /**
  * @phpstan-template T of GalleryItemInterface

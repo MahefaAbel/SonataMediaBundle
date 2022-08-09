@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Sonata\MediaBundle\Twig\Extension\FormatterMediaExtension;
-use Sonata\MediaBundle\Twig\Extension\MediaExtension;
-use Sonata\MediaBundle\Twig\GlobalVariables;
-use Sonata\MediaBundle\Twig\MediaRuntime;
+use Mahefa\Sonata\MediaBundle\Twig\Extension\FormatterMediaExtension;
+use Mahefa\Sonata\MediaBundle\Twig\Extension\MediaExtension;
+use Mahefa\Sonata\MediaBundle\Twig\GlobalVariables;
+use Mahefa\Sonata\MediaBundle\Twig\MediaRuntime;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

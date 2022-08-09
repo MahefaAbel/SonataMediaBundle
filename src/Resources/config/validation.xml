@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <constraint-mapping xmlns="http://symfony.com/schema/dic/constraint-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/constraint-mapping         http://symfony.com/schema/dic/services/constraint-mapping-1.0.xsd">
-    <class name="Sonata\MediaBundle\Model\Media">
+    <class name="Mahefa\Sonata\MediaBundle\Model\Media">
         <constraint name="Sonata\Form\Validator\Constraints\InlineConstraint">
             <option name="service">sonata.media.pool</option>
             <option name="method">validate</option>
@@ -17,10 +17,10 @@
             <constraint name="NotNull"/>
             <constraint name="NotBlank"/>
         </property>
-        <constraint name="Sonata\MediaBundle\Validator\Constraints\ImageUploadDimension"/>
+        <constraint name="Mahefa\Sonata\MediaBundle\Validator\Constraints\ImageUploadDimension"/>
     </class>
-    <class name="Sonata\MediaBundle\Model\Gallery">
-        <constraint name="Sonata\MediaBundle\Validator\Constraints\ValidMediaFormat"/>
+    <class name="Mahefa\Sonata\MediaBundle\Model\Gallery">
+        <constraint name="Mahefa\Sonata\MediaBundle\Validator\Constraints\ValidMediaFormat"/>
         <property name="galleryItems">
             <constraint name="Valid"/>
         </property>

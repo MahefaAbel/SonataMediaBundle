@@ -11,15 +11,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Sonata\MediaBundle\Provider\DailyMotionProvider;
-use Sonata\MediaBundle\Provider\FileProvider;
-use Sonata\MediaBundle\Provider\ImageProvider;
-use Sonata\MediaBundle\Provider\Pool;
-use Sonata\MediaBundle\Provider\VimeoProvider;
-use Sonata\MediaBundle\Provider\YouTubeProvider;
-use Sonata\MediaBundle\Thumbnail\FileThumbnail;
-use Sonata\MediaBundle\Thumbnail\FormatThumbnail;
-use Sonata\MediaBundle\Thumbnail\LiipImagineThumbnail;
+use Mahefa\Sonata\MediaBundle\Provider\DailyMotionProvider;
+use Mahefa\Sonata\MediaBundle\Provider\FileProvider;
+use Mahefa\Sonata\MediaBundle\Provider\ImageProvider;
+use Mahefa\Sonata\MediaBundle\Provider\Pool;
+use Mahefa\Sonata\MediaBundle\Provider\VimeoProvider;
+use Mahefa\Sonata\MediaBundle\Provider\YouTubeProvider;
+use Mahefa\Sonata\MediaBundle\Thumbnail\FileThumbnail;
+use Mahefa\Sonata\MediaBundle\Thumbnail\FormatThumbnail;
+use Mahefa\Sonata\MediaBundle\Thumbnail\LiipImagineThumbnail;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

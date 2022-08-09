@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Thumbnail;
+namespace Mahefa\Sonata\MediaBundle\Thumbnail;
 
-use Sonata\MediaBundle\Resizer\ResizerInterface;
+use Mahefa\Sonata\MediaBundle\Resizer\ResizerInterface;
 
 /**
  * @author Jordi Sala Morales <jordism91@gmail.com>

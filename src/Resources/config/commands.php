@@ -11,14 +11,14 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-use Sonata\MediaBundle\Command\AddMassMediaCommand;
-use Sonata\MediaBundle\Command\AddMediaCommand;
-use Sonata\MediaBundle\Command\CleanMediaCommand;
-use Sonata\MediaBundle\Command\FixMediaContextCommand;
-use Sonata\MediaBundle\Command\RefreshMetadataCommand;
-use Sonata\MediaBundle\Command\RemoveThumbsCommand;
-use Sonata\MediaBundle\Command\SyncThumbsCommand;
-use Sonata\MediaBundle\Command\UpdateCdnStatusCommand;
+use Mahefa\Sonata\MediaBundle\Command\AddMassMediaCommand;
+use Mahefa\Sonata\MediaBundle\Command\AddMediaCommand;
+use Mahefa\Sonata\MediaBundle\Command\CleanMediaCommand;
+use Mahefa\Sonata\MediaBundle\Command\FixMediaContextCommand;
+use Mahefa\Sonata\MediaBundle\Command\RefreshMetadataCommand;
+use Mahefa\Sonata\MediaBundle\Command\RemoveThumbsCommand;
+use Mahefa\Sonata\MediaBundle\Command\SyncThumbsCommand;
+use Mahefa\Sonata\MediaBundle\Command\UpdateCdnStatusCommand;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

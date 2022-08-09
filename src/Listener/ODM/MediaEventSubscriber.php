@@ -11,13 +11,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Listener\ODM;
+namespace Mahefa\Sonata\MediaBundle\Listener\ODM;
 
 use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ODM\MongoDB\Events;
 use Doctrine\Persistence\Event\LifecycleEventArgs;
-use Sonata\MediaBundle\Listener\BaseMediaEventSubscriber;
-use Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Listener\BaseMediaEventSubscriber;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
 
 /**
  * @phpstan-extends BaseMediaEventSubscriber<DocumentManager>

@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Generator;
+namespace Mahefa\Sonata\MediaBundle\Generator;
 
-use Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
 
 class UuidGenerator implements GeneratorInterface
 {

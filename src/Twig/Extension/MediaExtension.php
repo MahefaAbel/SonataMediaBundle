@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Twig\Extension;
+namespace Mahefa\Sonata\MediaBundle\Twig\Extension;
 
-use Sonata\MediaBundle\Twig\MediaRuntime;
+use Mahefa\Sonata\MediaBundle\Twig\MediaRuntime;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 

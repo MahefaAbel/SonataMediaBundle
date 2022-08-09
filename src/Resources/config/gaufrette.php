@@ -15,11 +15,11 @@ use Aws\S3\S3Client;
 use Gaufrette\Adapter\AwsS3;
 use Gaufrette\Adapter\Ftp;
 use Gaufrette\Filesystem;
-use Sonata\MediaBundle\Filesystem\Local;
-use Sonata\MediaBundle\Filesystem\Replicate;
-use Sonata\MediaBundle\Metadata\AmazonMetadataBuilder;
-use Sonata\MediaBundle\Metadata\NoopMetadataBuilder;
-use Sonata\MediaBundle\Metadata\ProxyMetadataBuilder;
+use Mahefa\Sonata\MediaBundle\Filesystem\Local;
+use Mahefa\Sonata\MediaBundle\Filesystem\Replicate;
+use Mahefa\Sonata\MediaBundle\Metadata\AmazonMetadataBuilder;
+use Mahefa\Sonata\MediaBundle\Metadata\NoopMetadataBuilder;
+use Mahefa\Sonata\MediaBundle\Metadata\ProxyMetadataBuilder;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 

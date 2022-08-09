@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Command;
+namespace Mahefa\Sonata\MediaBundle\Command;
 
 use Sonata\Doctrine\Model\ClearableManagerInterface;
-use Sonata\MediaBundle\Model\MediaManagerInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaManagerInterface;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

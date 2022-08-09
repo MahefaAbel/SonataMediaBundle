@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Sonata\MediaBundle\Provider;
+namespace Mahefa\Sonata\MediaBundle\Provider;
 
 use Sonata\Form\Validator\ErrorElement;
-use Sonata\MediaBundle\Model\MediaInterface;
-use Sonata\MediaBundle\Security\DownloadStrategyInterface;
+use Mahefa\Sonata\MediaBundle\Model\MediaInterface;
+use Mahefa\Sonata\MediaBundle\Security\DownloadStrategyInterface;
 
 /**
  * @phpstan-import-type FormatOptions from MediaProviderInterface
